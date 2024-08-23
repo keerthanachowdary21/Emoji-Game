@@ -1,0 +1,44 @@
+/* Write your code here. */
+.result-container1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff30;
+  border-radius: 8px;
+  padding: 24px 0;
+}
+
+.scorecard-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.your-score-heading1 {
+  font-size: 48px;
+  color: #ffffff;
+}
+.best-score-para1 {
+  font-size: 16px;
+  color: #ffffff;
+}
+.score-para1 {
+  color: #6a59ff;
+  margin: 4px 0;
+}
+.play-again-button1 {
+  background-color: #ffce27;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin: 4px 0;
+}
+
+.scorecard-image-container1 {
+  width: 50%;
+}
+.scorecard-image1 {
+  width: 100%;
+}
