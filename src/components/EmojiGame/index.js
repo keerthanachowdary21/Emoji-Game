@@ -29,7 +29,11 @@ class EmojiGame extends Component {
   }
 
   toClickPlayAgainGame = () => {
-    this.setState({isgameInProgress: false, clickedEmojisList: [], score: 0})
+    this.setState({
+      isgameInProgress: false,
+      clickedEmojisList: [],
+      score: 0,
+    })
   }
 
   shuffledEmojisList = () => {
@@ -67,6 +71,7 @@ class EmojiGame extends Component {
   render() {
     const shuffledEmojisList = this.shuffledEmojisList()
     const {score, topscore, isgameInProgress} = this.state
+
     return (
       <div className="main-conatiner">
         <NavBar

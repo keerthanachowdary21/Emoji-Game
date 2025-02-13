@@ -1,5 +1,3 @@
-// Write your code here.
-
 import './index.css'
 
 const EmojiCard = props => {
@@ -8,6 +6,8 @@ const EmojiCard = props => {
 
   const onClickbtn = () => {
     clickEmoji(id)
+    console.log(id)
+    console.log(emojiName)
   }
 
   return (

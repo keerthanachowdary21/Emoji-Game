@@ -1,4 +1,3 @@
-// // Write your code here.
 import './index.css'
 
 const WinOrLoseCard = props => {
@@ -32,6 +31,7 @@ const WinOrLoseCard = props => {
           Play Again
         </button>
       </div>
+
       <div className="scorecard-image-container1">
         <img className="scorecard-image1" alt="win or lose" src={imgUrl} />
       </div>
